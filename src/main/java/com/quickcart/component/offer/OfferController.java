@@ -1,4 +1,4 @@
-package com.quickcart.offer.componentoffer;
+package com.quickcart.component.offer;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

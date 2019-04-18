@@ -1,0 +1,8 @@
+server:
+  post: ${PORT:${SERVER_PORT:0}}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

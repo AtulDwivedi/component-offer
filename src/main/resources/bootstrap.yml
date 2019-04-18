@@ -2,10 +2,8 @@
 spring:
   application:
     name: component-offer
-
   cloud:
     config:
       uri: http://localhost:8081
-
-server:
-  port: 8080
+#  profiles:
+#    active: dev
